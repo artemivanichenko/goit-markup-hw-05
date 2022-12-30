@@ -24,13 +24,13 @@
         >
         <nav class="header-nav">
           <ul class="header-nav-position">
-            <li class="nav-position-action">
+            <li class="item">
               <a href="./index.html" class="header-btn color-action">Студія</a>
             </li>
-            <li class="nav-position-action">
+            <li class="item">
               <a href="./portfolio.html" class="header-btn">Портфоліо</a>
             </li>
-            <li class="nav-position-action">
+            <li class="item">
               <a href="" class="header-btn">Контакти</a>
             </li>
           </ul>
@@ -60,13 +60,15 @@
     <main class="main-bg indent">
       <div class="container">
         <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="main-btn-style">Замовити послугу</button>
+        <button data-modal-open type="button" class="main-btn-style">
+          Замовити послугу
+        </button>
       </div>
     </main>
     <section class="section-skills">
       <div class="container">
-        <ul class="skills-item">
-          <li class="item">
+        <ul class="skills">
+          <li class="skills-item">
             <div class="skills-icon-block">
               <svg width="70" height="70">
                 <use href="./images/symbol-defs.svg#icon-antenna"></use>
@@ -78,7 +80,7 @@
               формування позиції.
             </p>
           </li>
-          <li class="item">
+          <li class="skills-item">
             <div class="skills-icon-block">
               <svg width="70" height="70">
                 <use href="./images/symbol-defs.svg#icon-clock"></use>
@@ -90,7 +92,7 @@
               у себе.
             </p>
           </li>
-          <li class="item">
+          <li class="skills-item">
             <div class="skills-icon-block">
               <svg width="70" height="70">
                 <use href="./images/symbol-defs.svg#icon-diagram"></use>
@@ -101,7 +103,7 @@
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="item">
+          <li class="skills-item">
             <div class="skills-icon-block">
               <svg width="70" height="70">
                 <use href="./images/symbol-defs.svg#icon-astronaut"></use>
@@ -423,5 +425,16 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <p></p>
+        <button data-modal-close class="modal-position-close">
+          <svg width="11" height="11">
+            <use href="./images/symbol-defs.svg#icon-icon-btnclose"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
