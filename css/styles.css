@@ -190,19 +190,19 @@ ul {
 .header-grey:focus{
     color:var(--accent-color);
     fill: var(--accent-color);
-    transition: color var(--transition);
+    transition: var(--transition);
 }
 .contact-icon:hover,
 .contact-icon:focus
  {
     fill: var(--accent-color);
-    transition: color var(--transition);
+    transition: var(--transition);
 }
 .header-grey:hover .contact-icon,
 .header-grey:focus .contact-icon{
     color:var(--accent-color);
     fill: var(--accent-color);
-    transition: color var(--transition);
+    transition: var(--transition);
     
 }
                 /* main */
@@ -272,7 +272,7 @@ ul {
     background-color: var(--accent-color);
     border: 0px solid var(--accent-color);
     border-radius: 4px;
-    transition: color var(--transition);
+    transition: var(--transition);
 }
 .main-portfolio {
     color:var(--primary-white-color);
@@ -318,7 +318,7 @@ ul {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     color: var(--primary-white-color);
-    transition: color var(--transition);
+    transition: var(--transition);
 }
                 /* section */
 
@@ -346,7 +346,7 @@ ul {
 .sect-gall-img:hover .glr-position-style {
     opacity: 1;
     transform: translate(0);
-    transition: color var(--transition);
+    transition: var(--transition);
 }
 .glr-position-text {
     font-family: 'Roboto';
@@ -365,7 +365,7 @@ display: block;
 
 .sect-gall-link:hover,
 .sect-gall-link:focus {
-    transition: color var(--transition);
+    transition: var(--transition);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .skills-icon-block {
@@ -471,7 +471,7 @@ display: block;
 .gallery-list {
     gap: 30px;
     padding-bottom: 94px;
-    transition: color var(--transition);
+    transition: var(--transition);
 }
             /* Team */
 
@@ -533,7 +533,7 @@ margin-top: 10px;
 .socials-link:focus {
     fill:var(--primary-white-color);
     background-color:var(--accent-color);
-    transition: color var(--transition);
+    transition: var(--transition);
 }
 
 
@@ -621,7 +621,7 @@ margin-top: 10px;
 .clients-section-block:focus {
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
-    transition: color var(--transition);
+    transition: var(--transition);
 
 }
 
@@ -713,7 +713,7 @@ margin-top: 10px;
 .footer-socials-link:focus {
     fill:var(--primary-white-color);
     background-color:var(--accent-color);
-    transition: color var(--transition);
+    transition: var(--transition);
 }
 .subscription {
     margin-left: 105px;
@@ -945,7 +945,7 @@ margin-top: 10px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    transition: color var(--transition);
+    transition: var(--transition);
 }
 .link-conditions {
     color: var(--accent-color);
